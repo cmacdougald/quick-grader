@@ -7,7 +7,7 @@ CPP_DIRECTORY=$(pwd)/cpp_dir
 mkdir -p $CPP_DIRECTORY
 
 read -p "Enter git folder URL: " GITHUB_URL
-GITHUB_URL='https://github.com/cmacdougald/2020SPRING-ITSE1307/tree/master/crm-chp1-ex1'
+# GITHUB_URL='https://github.com/cmacdougald/2020SPRING-ITSE1307/tree/master/crm-chp1-ex1'
 
 GITHUB_URL=$(echo $GITHUB_URL | sed 's,tree/master,trunk,g')
 
